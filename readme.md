@@ -1,6 +1,6 @@
 #Sociální síť
 domácí úkol z předmětu **vývoj webových aplikací**
-##Odevzdání
+## Odevzdání
 **Datum odevzdání je: 30. 3. 2018**<br>
 Celý postup vývoje zaznamenávejte pomocí systému **git**.
 To bude i vaší výslednou prací, která bude hodnocena.<br>
@@ -19,7 +19,7 @@ https://git-scm.com/downloads<br><br>
 Jak se se systémem Git pracuje se můžete naučit zde:
 https://git-scm.com/doc
 
-##Zadání
+## Zadání
 Z přiložené ho projektu vytvořte plně funkční sofiální síť.
 - Uživatelé
     - Systém přátelství
