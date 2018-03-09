@@ -21,7 +21,7 @@ https://git-scm.com/doc
 
 ## Zadání
 Z přiložené ho projektu vytvořte plně funkční sofiální síť.<br>
-V kořenu repozitáře vytvořte soubor README.md, ve kterém popište postup nasazení vaší aplikace.
+V kořenu repozitáře vytvořte soubor README.md, s popisem postupu nasazení vaší aplikace.
 - Uživatelé
     - Systém přátelství
     - Stránky profilů
