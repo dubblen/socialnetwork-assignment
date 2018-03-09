@@ -20,7 +20,7 @@ Jak se se systémem Git pracuje se můžete naučit zde:
 https://git-scm.com/doc
 
 ## Zadání
-Z přiložené ho projektu vytvořte plně funkční sofiální síť.<br>
+Z přiložené ho projektu vytvořte plně funkční sociální síť.<br>
 V kořenu repozitáře vytvořte soubor README.md s popisem postupu nasazení vaší aplikace.
 - Uživatelé
     - Systém přátelství
