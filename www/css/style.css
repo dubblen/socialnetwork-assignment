@@ -1,0 +1,63 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+.main-headline {
+	font-size: 20px;
+}
+.status-form {
+	display: block;
+	width: 100%;
+}
+.status-form textarea {
+	display: block;
+	width: 100%;
+}
+.wall-post .profile-header {
+	display: flex;
+	flex-direction: row;
+}
+.wall-post .profile-img {
+	display: flex;
+	flex: none;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #6a6a6a;
+}
+.wall-post .profile-name {
+	display: flex;
+	flex: auto;
+	vertical-align: middle;
+	align-items: center;
+	line-height: 1;
+	padding: 0 10px;
+}
+.profile .profile-header {
+	display: flex;
+	flex: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	justify-content: center;
+	align-items: center;
+}
+.profile .profile-picture {
+	display: flex;
+	flex: none;
+	height: 100px;
+	width: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
