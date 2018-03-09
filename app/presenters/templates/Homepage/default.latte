@@ -15,7 +15,7 @@
         </form>
     </div>
 </div>
-{foreach [1,2,3,4,5,6] as $item}
+{foreach $posts as $post}
 <div class="row mb-1">
     <div class="col">
         <div class="card wall-post">
@@ -28,10 +28,10 @@
                 </div>
             </div>
             <div class="card-block py-1">
-                This is some text within a card block. {$item}
+                {$post->content}
             </div>
             <div class="card-block">
-                <a href="#" class="btn btn-sm btn-success">
+                <a n:href="Homepage:likePost $post->id" class="btn btn-sm btn-success">
                     <i class="fas fa-thumbs-up"></i> Like
                 </a>
                 <a href="#" class="btn btn-sm btn-primary">
