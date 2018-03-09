@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<link href="{$basePath}/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="{$basePath}/bower_components/tether/dist/css/tether.min.css" rel="stylesheet" type="text/css">
+	<link href="{$basePath}/bower_components/Font-Awesome/svg-with-js/css/fa-svg-with-js.css" rel="stylesheet" type="text/css">
+	<link href="{$basePath}/css/style.css" rel="stylesheet" type="text/css">
+
+	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#"><h1 class="main-headline" n:block=title><i class="fas fa-users"></i> SocialNetwork!</h1></a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+    <div class="container">
+            <div class="col-12">
+	            {include content}
+            </div>
+        </div>
+    </div>
+
+	{block scripts}
+		<script type="text/javascript" src="{$basePath}/bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="{$basePath}/bower_components/tether/dist/js/tether.min.js"></script>
+		<script type="text/javascript" src="{$basePath}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{$basePath}/bower_components/Font-Awesome/svg-with-js/js/fontawesome-all.min.js"></script>
+		<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
+	{/block}
+</body>
+</html>
