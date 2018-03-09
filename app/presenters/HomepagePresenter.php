@@ -7,7 +7,7 @@ use Tracy\Debugger;
 USE Nette\Database\Context;
 
 
-class HomepagePresenter extends Nette\Application\UI\Presenter
+class HomepagePresenter extends BasePresenter
 {
 
 	private $database;
@@ -20,7 +20,7 @@ class HomepagePresenter extends Nette\Application\UI\Presenter
 	public function renderDefault() {
 		$query = parse_url("https://www.youtube.com/watch?v=zHdeRU8Zu_E")['query'];
 		parse_str($query, $output);
-		Debugger::dump($output);
+		//Debugger::dump($output);
 		$posts = $this->database->table('posts');
 		$this->template->posts = $posts;
 	}

@@ -3,8 +3,9 @@
 namespace App\Presenters;
 
 use Nette;
+use App;
 
 
-class ProfilePresenter extends Nette\Application\UI\Presenter
+class ProfilePresenter extends BasePresenter
 {
 }
